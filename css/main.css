@@ -1,0 +1,67 @@
+html {
+  box-sizing: border-box; }
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit; }
+
+header {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%; }
+  header::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+body {
+  font-size: 10px;
+  font-family: 'helvetica', sans-serif;
+  margin-top: 2.75em; }
+
+nav {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  nav::after {
+    clear: both;
+    content: "";
+    display: table; }
+  nav a {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%;
+    padding: 10px; }
+    nav a:last-child {
+      margin-right: 0; }
+
+a {
+  text-decoration: none;
+  color: #495159; }
+
+section.hero {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  height: 300px;
+  background-image: url("../assets/background.jpg");
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  font-size: 3em; }
+  section.hero::after {
+    clear: both;
+    content: "";
+    display: table; }
+  section.hero:last-child {
+    margin-right: 0; }
+
+.plans article {
+  height: 2.4em; }

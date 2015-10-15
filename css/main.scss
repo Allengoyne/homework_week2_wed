@@ -1,0 +1,51 @@
+@import "bower_components/bourbon/app/assets/stylesheets/bourbon";
+@import "bower_components/neat/app/assets/stylesheets/neat";
+
+// * {
+//   font-family: 'helvetica', sans-serif;
+// }
+header {
+  @include outer-container;
+  height: 100%;
+
+}
+
+body {
+  font-size: 10px;
+  font-family: 'helvetica', sans-serif;
+  margin-top: 2.75em;
+}
+
+nav {
+  @include outer-container;
+    a {
+      @include span-columns(3);
+      padding: 10px;
+    }
+  }
+
+a {
+  text-decoration: none;
+  color: #495159;
+}
+section.hero {
+    @include outer-container(100%);
+    @include span-columns(12);
+    height: 300px;
+    background-image: url("../assets/background.jpg");
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    font-size: 3em;
+    }
+.plans {
+  // padding: 6em 1.5em 1.5em 0;
+  // .personal {
+  //   background: #519251;
+    // height: 2.4em;
+  // }
+}
+.plans article {
+
+  height: 2.4em;
+}
